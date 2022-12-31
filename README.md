@@ -6,7 +6,9 @@
 
 <p align="center">- 🔭 I’m currently working on <b>an advanced crypto exchange</b>.</p>
 
-<p align="center">- 💬 Ask me about <b>PHP, Python</b></p>
+<p align="center">- 💬 Ask me about <b>PHP, Python</b>.</p>
+
+<p align="center">- 📄 I am interested in <b>Crypto, Artificial intelligence</b>.</p>
 
 <p align="center">- 📫 How to reach me <b>Rick404#8294</b> on discord.</p>
 
