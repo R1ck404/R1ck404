@@ -1,16 +1,16 @@
 <h1 align="center">Hi 👋, I'm Rick</h1>
-<h3 align="center">A passionate fullstack developer</h3>
+<h3 align="center">I am a passionate fullstack developer</h3>
 
 <p align="center" style="width: 100%; background-color: white;"> <img src="https://komarev.com/ghpvc/?username=r1ck404&label=Profile%20views&color=0e75b6&style=for-the-badge&label=Total+Views&color=blueviolet" alt="r1ck404" /> </p>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=r1ck404&theme=tokyonight" alt="r1ck404" /></a> </p>
 
 <p align="center">- 🔭 I’m currently working on <b>an advanced crypto exchange</b>.</p>
 
-<p align="center">- 💬 Ask me about <b>PHP, Python</b>.</p>
+<p align="center">- 💬 Ask me about <b>PHP or Python</b>.</p>
 
-<p align="center">- 📄 I am interested in <b>Crypto, Artificial intelligence</b>.</p>
+<p align="center">- 📄 I am interested in <b>Crypto and Artificial intelligence</b>.</p>
 
-<p align="center">- 📫 How to reach me <b>Rick404#8294</b> on discord.</p>
+<p align="center">- 📫 How to reach me: <b>Rick404#8294</b> on discord.</p>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
