@@ -1,0 +1,431 @@
+* {
+    font-family: "Inter", system-ui, -apple-system;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.code-editor {
+    margin: 0 auto 0 auto;
+    position: relative;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    overflow: hidden;
+    border-radius: 1.2vh;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    opacity: 1;
+
+    transition: box-shadow .2s, border-radius .2s;
+    max-width: 90%;
+    min-height: 30%;
+    -ms-overflow-style: none;
+    overflow: none;
+
+    animation: enterAnimation 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes enterAnimation {
+    0% {
+        transform: scale(.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.taskbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    transition: background-color .2s ease-in-out;
+}
+
+.taskbar .navigation-items {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding-left: 1vh;
+    column-gap: .5vh;
+}
+
+.taskbar .navigation-items .navigation-item {
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    border-radius: 9999px;
+    background-color: #a0aec0;
+    cursor: pointer;
+}
+
+.taskbar .navigation-items .navigation-item:nth-child(1) {
+    background-color: #ff5f57;
+}
+
+.taskbar .navigation-items .navigation-item:nth-child(2) {
+    background-color: #febc2e;
+}
+
+.taskbar .navigation-items .navigation-item:nth-child(3) {
+    background-color: #28c840;
+}
+
+.taskbar .navigation-tabs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-right: 1vh;
+    overflow: hidden;
+    margin-left: 1vh;
+}
+
+[data-accent-visible="false"] .tab {
+    column-gap: 8px;
+}
+
+.taskbar .navigation-tabs .navigation-tab {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-right: .75vh;
+    padding-left: 1vh;
+    transition: all .3s ease-in-out;
+
+    background-color: #26292f;
+    height: 30px;
+    color: #c9d1d9;
+    padding: 0 1vh;
+    vertical-align: middle;
+    margin-left: 1.25vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: .0875;
+    border-radius: 1vh;
+    position: relative;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    transition: width .15s ease-in-out, height 50ms ease-in-out;
+    max-width: 400px;
+    min-width: 0px;
+    flex: 0 1 auto;
+
+    cursor: pointer;
+}
+
+.taskbar .navigation-tabs .navigation-tab:hover {
+    background-color: #31343a;
+}
+
+.taskbar .navigation-tabs .new-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    appearance: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.taskbar .navigation-tabs .new-tab:hover {
+    background-color: #333333;
+}
+
+.taskbar .extra-tabs {
+    margin-left: auto;
+    margin-right: 1.5vh;
+    border-radius: 1vh;
+
+    cursor: pointer;
+}
+
+.editor {
+    position: relative;
+    overflow: auto;
+    font-size: 2.25vh;
+    padding-bottom: 1vh;
+    padding-top: .25vh;
+    padding-inline-start: 1vh;
+    padding-inline-end: 1vh;
+    tab-size: 4;
+    width: 100%;
+}
+
+.editor * {
+    text-overflow: ellipsis;
+}
+
+.editor .box {
+    position: relative;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 2.25vh;
+    overflow: scroll;
+}
+
+.editor .content {
+    background-color: #0d1117;
+    position: relative !important;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: column;
+
+    font-family: Fira Code, monospace;
+    font-weight: 400;
+    font-variant-ligatures: normal;
+
+    margin: 0;
+    flex-grow: 2;
+    flex-shrink: 0;
+    display: block;
+    white-space: pre;
+    word-wrap: normal;
+    box-sizing: border-box;
+    padding: 4px 0;
+    outline: none;
+
+    width: 100%;
+    z-index: 1;
+}
+
+.editor .text-wrapping {
+    white-space: break-spaces;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    flex-shrink: 1;
+}
+
+.editor * {
+    font-family: Fira Code, monospace;
+    font-weight: 500;
+    font-variant-ligatures: normal;
+
+    caret-color: transparent !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.editor *::-webkit-scrollbar {
+    display: none;
+}
+
+.editor .terminal {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+
+    bottom: 0;
+
+    z-index: 2;
+    border-top: 1px solid #26292f;
+    background-color: #0d1117;
+
+    overflow: scroll;
+}
+
+.editor .terminal input {
+    width: auto;
+}
+
+.terminal-cursor {
+    height: 17px;
+    width: 8px;
+    background: white;
+    display: block;
+    margin-left: 8px;
+    animation: 1000ms ease infinite alternate blink;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.editor .terminal .terminal-area p {
+    font-size: 2vh;
+}
+
+.editor .terminal .terminal-area input {
+    all: unset;
+    font-size: 2vh;
+
+    width: auto;
+
+    cursor: text;
+}
+
+/* Custom dropdown */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    /* demo only */
+}
+
+.custom-dropdown select {
+    background-color: transparent;
+    color: #c9d1d9;
+    font-size: inherit;
+    padding: .75vh;
+    border: 0;
+    margin: 0;
+    border-radius: .25vh;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.custom-dropdown select:hover {
+    background-color: #31343a;
+}
+
+.custom-dropdown::after {
+    all: unset;
+
+    background-color: #31343a;
+    height: 1vh;
+    font-size: .625vh;
+    line-height: 1;
+    right: 1.2vh;
+    top: 50%;
+    margin-top: -.5vh;
+}
+
+.custom-dropdown::before {
+    all: unset;
+    background-color: #31343a;
+    width: 1vh;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+    color: rgba(0, 0, 0, .3);
+}
+
+.custom-dropdown select[disabled]::after {
+    color: rgba(0, 0, 0, .1);
+}
+
+.custom-dropdown::before {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+.custom-dropdown::after {
+    color: rgba(0, 0, 0, .4);
+}
+
+.php-tag {
+    color: white;
+    /* color: hsl(210, 52%, 31%); */
+}
+
+.php-function {
+    color: #C586C0;
+}
+
+.php-data-type {
+    color: #569CD6;
+}
+
+.php-variable {
+    color: #9CDCFE;
+}
+
+.php-access-modifiers {
+    color: #569CD6;
+}
+
+.php-string {
+    color: #CE9178;
+}
+
+.php-number {
+    color: #B5CEA8;
+}
+
+.javascript-number {
+    color: #B5CEA8;
+}
+
+.javascript-variable {
+    color: #9CDCFE;
+}
+
+.javascript-function {
+    color: #DCDCAA;
+}
+
+.javascript-quotes {
+    color: #91c8f6;
+}
+
+.javascript-access-modifiers {
+    color: #F44747;
+}
+
+.python-variable {
+    color: #ffb86c;
+}
+
+.python-data-type {
+    color: #7A7FFD;
+}
+
+.python-access-modifiers {
+    color: #FF659C;
+}
+
+.python-number {
+    color: #0072D6;
+}
+
+.csharp-data-type {
+    color: #ff75b5;
+}
+
+.csharp-access-modifiers {
+    color: #e28aac;
+}
+
+.csharp-function {
+    color: #6fc1ff;
+}
+
+.csharp-variable {
+    color: #d89d5f;
+}
+
+.csharp-number {
+    color: #d89d5f;
+}

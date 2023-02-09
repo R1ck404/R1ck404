@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Welcome to my portfolio as a full-stack developer. I specialize in PHP, Python, HTML, CSS, JavaScript, and C# and have a passion for creating high-quality, user-friendly websites and applications. Check out my work to learn more about my skills and experience.">
+    <meta name="keywords"
+        content="full-stack developer, PHP, Python, HTML, CSS, JavaScript, C#, web development, front-end, back-end, server-side, databases, web security, problem-solving, critical thinking, creativity, communication, team environment">
+    <meta name="author" content="Rick Huijser">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, X-Content-Type-Options=nosniff">
+    <link rel="stylesheet" href="styles/code-editor.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js"></script>
+    <script src="scripts/typewriter.js" defer></script>
+    <script src="scripts/code-editor.js" defer></script>
+    <script src="scripts/terminal.js" defer></script>
+    <title>Full-Stack Developer | Rick</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left">
+            <h1>Rick Huijser</h1>
+        </div>
+        <div class="right collapsible">
+            <div class="navbar-item">
+                <a href="">Projects</a>
+            </div>
+
+            <div class="navbar-item">
+                <a href="">About me</a>
+            </div>
+
+            <div class="navbar-item">
+                <a href="">Contact</a>
+            </div>
+        </div>
+
+        <div class="navbar-item hamburger" style="margin-left: auto;">
+            <img src="images/hamburger.svg" alt="hamburger">
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="text-container">
+            <h1 class="typer">Hi! Im <span class="highlightedText">Rick</span>,</h1>
+            <h1 class="typer">a <span class="highlightedText">17</span> year old developer.</h1>
+            <span id="typed"></span>
+        </div>
+        <div class="code-editor">
+            <div class="taskbar">
+                <div class="navigation-items">
+                    <div class="navigation-item"></div>
+                    <div class="navigation-item"></div>
+                    <div class="navigation-item"></div>
+                </div>
+
+                <div class="navigation-tabs">
+                    <div class="navigation-tab">
+                        <img class="language-logo" src="images/php.svg" alt="language"
+                            style="width: 24px; height: 24px; border-radius: 1rem;">
+                        <span class="custom-dropdown">
+                            <select class="language-type">
+                                <option value="php">index.php</option>
+                                <option value="javascript">index.js</option>
+                                <option value="python">index.py</option>
+                                <option value="csharp">index.cs</option>
+                            </select>
+                        </span>
+                    </div>
+                    <button class="new-tab">
+                        <img src="images/plus.svg" alt="+" style="width: 14px; height: 14px;">
+                    </button>
+                </div>
+
+                <div class="extra-tabs">
+                    <img onclick="toggleTerminal();" src="images/terminal.svg" alt="terminal"
+                        style="width: 20px; height: 20px;">
+                </div>
+            </div>
+
+            <div class="editor" data-language="php">
+                <div class="box">
+                    <pre style="white-space:normal;">
+                        <code class="content text-wrapping language-php " style="white-space: pre;">
+                        </code>
+                    </pre>
+
+                    <div class="terminal">
+                        <div class="terminal-area" id="terminal-area">
+                            <p class="terminal-index" style="display: flex; flex-direction: row;">rick@portfolio:~$
+                                <input type="text" class="terminal-input"><span class="terminal-cursor"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="window.location.href = `https://github.com/R1ck404`;" class="custom-button">What's my
+            github?</button>
+    </div>
+</body>
+
+</html>
