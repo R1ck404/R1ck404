@@ -6,7 +6,7 @@
 
 <p align="center">- 🔭 I’m currently working on <b>an advanced crypto exchange</b>.</p>
 
-<p align="center">- 💬 Ask me about <b>PHP, JavaScript, C# or Python</b>.</p>
+<p align="center">- 💬 Ask me about <b>PHP, JavaScript, C# and Python</b>.</p>
 
 <p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, and Artificial intelligence</b>.</p>
 
