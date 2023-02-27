@@ -6,9 +6,9 @@
 
 <p align="center">- 🔭 I’m currently working on <b>an advanced crypto exchange</b>.</p>
 
-<p align="center">- 💬 Ask me about <b>PHP or Python</b>.</p>
+<p align="center">- 💬 Ask me about <b>PHP, JavaScript, CSharp or Python</b>.</p>
 
-<p align="center">- 📄 I am interested in <b>Crypto and Artificial intelligence</b>.</p>
+<p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, and Artificial intelligence</b>.</p>
 
 <p align="center">- 📫 How to reach me: <b>Rick404#8294</b> on discord.</p>
 
@@ -23,4 +23,3 @@
 <img align="right" style="height: auto; width: 40%;" src="https://github-readme-stats.vercel.app/api?username=r1ck404&show_icons=true&locale=en&theme=tokyonight" alt="r1ck404" />
 
 <img align="left" style="height: auto; width: 40%;" src="https://github-readme-streak-stats.herokuapp.com/?user=R!ck404&theme=tokyonight" />
-
