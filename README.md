@@ -8,7 +8,7 @@
 
 <p align="center">- 💬 Ask me about <b>PHP, JavaScript, C# and Python</b>.</p>
 
-<p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, and Artificial intelligence</b>.</p>
+<p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, Artificial intelligence, and Reverse Engineering</b>.</p>
 
 <p align="center">- 📫 How to reach me: <b>Rick404#8294</b> on discord.</p>
 
