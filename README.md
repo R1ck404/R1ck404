@@ -24,7 +24,7 @@
 
 <h3 align="center">Frameworks & other</h3>
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=bootstrap,react,nextjs,vue,unity,sqlite,mysql,regex,flask" />
+    <img src="https://skillicons.dev/icons?i=bootstrap,react,nextjs,unity,sqlite,mysql,regex,flask" />
 </p>
 <img align="right" style="height: auto; width: 40%;" src="https://github-readme-stats.vercel.app/api?username=r1ck404&show_icons=true&locale=en&theme=tokyonight" alt="r1ck404" />
 
