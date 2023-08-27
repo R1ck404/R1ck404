@@ -19,7 +19,7 @@
 
 <h3 align="center">Languages</h3>
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,r,ts,cs,cpp,php" />
+    <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,r,cs,cpp,php" />
 </p>
 
 <h3 align="center">Frameworks & other</h3>
