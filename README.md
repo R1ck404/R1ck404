@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rick</h1>
 <h3 align="center">I am a passionate fullstack developer</h3>
-<h4 align="center">My portfolio: https://portfolio-r1ck404.vercel.app/</h4>
+<h4 align="center">My portfolio: https://rickhuijser.com/</h4>
 <p align="center" style="width: 100%; background-color: white;"> <img src="https://komarev.com/ghpvc/?username=r1ck404&label=Profile%20views&color=0e75b6&style=for-the-badge&label=Total+Views&color=blueviolet" alt="r1ck404" /> </p>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=r1ck404&theme=tokyonight" alt="r1ck404" /></a> </p>
 
