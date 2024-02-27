@@ -10,7 +10,7 @@
 
 <p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, Artificial intelligence, and Reverse Engineering</b>.</p>
 
-<p align="center">- 📫 How to reach me: <b>Rick404#8294</b> on discord.</p>
+<p align="center">- 📫 How to reach me: <b>Rick404</b> on discord.</p>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
