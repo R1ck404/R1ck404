@@ -4,11 +4,9 @@
 <p align="center" style="width: 100%; background-color: white;"> <img src="https://komarev.com/ghpvc/?username=r1ck404&label=Profile%20views&color=0e75b6&style=for-the-badge&label=Total+Views&color=blueviolet" alt="r1ck404" /> </p>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=r1ck404&theme=tokyonight" alt="r1ck404" /></a> </p>
 
-<p align="center">- 🔭 I’m currently working on <b>an advanced crypto exchange</b>.</p>
+<p align="center">- 💬 Ask me about <b>PHP, JavaScript, Typescript, C# Python and Unreal Engine</b>.</p>
 
-<p align="center">- 💬 Ask me about <b>PHP, JavaScript, C# and Python</b>.</p>
-
-<p align="center">- 📄 I am interested in <b>Crypto, Deep learning, Machine learning, Data science, Artificial intelligence, and Reverse Engineering</b>.</p>
+<p align="center">- 📄 I am interested in <b>Game development, Crypto, Deep learning, Machine learning, Data science, Artificial intelligence, and Reverse Engineering</b>.</p>
 
 <p align="center">- 📫 How to reach me: <b>Rick404</b> on discord.</p>
 
@@ -19,12 +17,12 @@
 
 <h3 align="center">Languages</h3>
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,r,cs,cpp,php" />
+    <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,r,cs,cpp,php,rust" />
 </p>
 
 <h3 align="center">Frameworks & other</h3>
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=bootstrap,react,nextjs,unity,sqlite,mysql,regex,flask" />
+    <img src="https://skillicons.dev/icons?i=tauri,tailwind,react,nextjs,unity,unreal,sqlite,mysql,regex,flask" />
 </p>
 <img align="right" style="height: auto; width: 40%;" src="https://github-readme-stats.vercel.app/api?username=r1ck404&show_icons=true&locale=en&theme=tokyonight" alt="r1ck404" />
 
